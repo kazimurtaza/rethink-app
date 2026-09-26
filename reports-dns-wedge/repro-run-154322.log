@@ -1,0 +1,33 @@
+== repro start Wed 23 Sept 2026 15:43:22 AEST serial=10.3.0.213:38541
+[15:43:22] c1-pre rr1---sn-a5mekn6k.googlevideo.com qt=1 rcode=0 an=1 ns=0 cname=False len=67 (4070ms)
+[15:43:26] c1-pre r4---sn-hxa7zn7s.googlevideo.com qt=1 rcode=0 an=1 ns=0 cname=False len=66 (4144ms)
+[15:43:31] c1-pre www.youtube.com qt=1 rcode=0 an=8 ns=0 cname=False len=161 (4034ms)
+[15:43:57] c1-lte rr1---sn-a5mekn6k.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:43:57] c1-lte r4---sn-hxa7zn7s.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:43:57] c1-lte www.youtube.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:44:37] c1-wifi rr1---sn-a5mekn6k.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:44:37] c1-wifi r4---sn-hxa7zn7s.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:44:37] c1-wifi www.youtube.com qt=1 NO-RESPONSE (3ms) rc=1
+== WEDGE DETECTED (mode:no-resp) Wed 23 Sept 2026 15:44:37 AEST — observation, NO restart
+[15:45:07] obs1 rr1---sn-a5mekn6k.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:45:07] obs1 r4---sn-hxa7zn7s.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:45:07] obs1 www.youtube.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:45:37] obs2 rr1---sn-a5mekn6k.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:45:37] obs2 r4---sn-hxa7zn7s.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:45:37] obs2 www.youtube.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:46:07] obs3 rr1---sn-a5mekn6k.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:46:07] obs3 r4---sn-hxa7zn7s.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:46:07] obs3 www.youtube.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:46:37] obs4 rr1---sn-a5mekn6k.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:46:37] obs4 r4---sn-hxa7zn7s.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:46:37] obs4 www.youtube.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:47:07] obs5 rr1---sn-a5mekn6k.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:47:07] obs5 r4---sn-hxa7zn7s.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:47:07] obs5 www.youtube.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:47:37] obs6 rr1---sn-a5mekn6k.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:47:38] obs6 r4---sn-hxa7zn7s.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:47:38] obs6 www.youtube.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:48:08] obs7 rr1---sn-a5mekn6k.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:48:08] obs7 r4---sn-hxa7zn7s.googlevideo.com qt=1 NO-RESPONSE (3ms) rc=1
+[15:48:08] obs7 www.youtube.com qt=1 NO-RESPONSE (3ms) rc=1
+== repro end Wed 23 Sept 2026 16:11:39 AEST

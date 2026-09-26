@@ -1,0 +1,73 @@
+09-23 16:52:15.040 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 57626), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:52:15.042 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:104d36dfb355727a,UID:2000,IP:,} for connId: 104d36dfb355727a, uid: 2000, cm: null
+09-23 16:52:15.044 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, r4---sn-hxa7zn7s.googlevideo.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:52:19.128 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 49284), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:52:19.130 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:4e5e4df078f98c4d,UID:2000,IP:,} for connId: 4e5e4df078f98c4d, uid: 2000, cm: null
+09-23 16:52:19.133 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, rr1---sn-a5mekn6k.googlevideo.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:52:23.210 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 35269), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:52:23.212 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:5c9c24d41a6592d7,UID:2000,IP:,} for connId: 5c9c24d41a6592d7, uid: 2000, cm: null
+09-23 16:52:23.215 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, www.youtube.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:52:24.080 27710 27866 E Firestack: retrier: readfrom: Exit: (can? false / optimized? false for *dialers.splitter) done (id:/pinned?false) 10.3.0.213:52690<=57.144.63.33:443; sz: 3724; after: 40.285641s; err: read tcp 57.144.63.33:443: connection reset by peer
+09-23 16:52:24.081 27710 27866 E Firestack: retrier: readfrom: Exit: (can? false / optimized? false for *dialers.splitter) done (id:/pinned?false) 10.3.0.213:58820<=57.145.9.32:443; sz: 2400; after: 39.423408s; err: read tcp 57.145.9.32:443: connection reset by peer
+09-23 16:52:57.319 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 40723), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:52:57.321 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:4f8d8558b468e718,UID:2000,IP:,} for connId: 4f8d8558b468e718, uid: 2000, cm: null
+09-23 16:52:57.324 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, r4---sn-hxa7zn7s.googlevideo.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:53:01.393 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 59546), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:53:01.395 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:108c26264c873e5b,UID:2000,IP:,} for connId: 108c26264c873e5b, uid: 2000, cm: null
+09-23 16:53:01.399 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, rr1---sn-a5mekn6k.googlevideo.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:53:05.454 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 50547), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:53:05.456 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:4bab608b50b0dcc6,UID:2000,IP:,} for connId: 4bab608b50b0dcc6, uid: 2000, cm: null
+09-23 16:53:05.457 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, www.youtube.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:53:27.325 27710 28723 I RethinkDnsVpn: preflow: returning uid: 10576 for src: (10.111.222.1, 50914), dst: (142.251.153.6, 443), isRethink? false
+09-23 16:53:27.335 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Exit,CID:d7b63b301c184dbd,UID:10576,IP:,} for src(10.111.222.1: 50914), dest(142.251.153.6:443, s.youtube.com)
+09-23 16:53:27.342 27710 27865 I Firestack: proxy: Exit: dial(udp)  => 142.251.153.6:443, ka? false, sz? 524288 (<nil>); err? <nil>
+09-23 16:53:27.342 27710 27865 I Firestack: udp: connect: d7b63b301c184dbd [10576] (proxy? Exit@10.3.0.213:56202) 10.3.0.213:56202 => 142.251.153.6:443/142.251.153.6:443; fallback? false / mux? false / fwd? false
+09-23 16:53:27.343 27710 31193 W RethinkDnsVpn: postFlow: no connection metadata found for mark: Mark{PIDCSV:Exit,CID:d7b63b301c184dbd,UID:10576,IP:142.251.153.6,}
+09-23 16:53:27.344 27710 31193 I Firestack: com: udp: forward: new conn udp:Exit::d7b63b301c184dbd rwext? true (intra.rwext), optset? false (120s); a(10.111.222.1:50914->142.251.153.6:443) => b(10.3.0.213:56202<-142.251.153.6:443) for 10576
+09-23 16:53:36.800 27710 28723 I RethinkDnsVpn: preflow: returning uid: 10279 for src: (10.111.222.1, 44040), dst: (57.144.63.33, 5222), isRethink? false
+09-23 16:53:36.803 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Exit,CID:0556d291ae3c2699,UID:10279,IP:,} for src(10.111.222.1: 44040), dest(57.144.63.33:5222, g.whatsapp.net)
+09-23 16:53:37.153 27710 27873 I Firestack: proxy: Exit: dial(tcp)  => 57.144.63.33:5222, ka? false, sz? 524288 (<nil>); err? <nil>
+09-23 16:53:37.155 27710 27866 I Firestack: tcp: 0556d291ae3c2699 dialed Exit proxy(10.111.222.1:44040) 57.144.63.33:5222 => 10.3.0.213:44390 (bind? false / bindaddr? invalid AddrPort) for 10279; rtt? 349ms
+09-23 16:53:37.156 27710 27856 W RethinkDnsVpn: postFlow: no connection metadata found for mark: Mark{PIDCSV:Exit,CID:0556d291ae3c2699,UID:10279,IP:57.144.63.33,}
+09-23 16:53:37.156 27710 27856 I Firestack: com: tcp: forward: new conn tcp:Exit::0556d291ae3c2699 rwext? true (*net.TCPConn), optset? false (0s); a(10.111.222.1:44040->57.144.63.33:5222) => b(10.3.0.213:44390<-57.144.63.33:5222) for 10279
+09-23 16:53:39.543 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 57374), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:53:39.544 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:96755011fc90bddd,UID:2000,IP:,} for connId: 96755011fc90bddd, uid: 2000, cm: null
+09-23 16:53:39.547 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, r4---sn-hxa7zn7s.googlevideo.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:53:43.604 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 53053), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:53:43.606 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:88dbda72bb762339,UID:2000,IP:,} for connId: 88dbda72bb762339, uid: 2000, cm: null
+09-23 16:53:43.609 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, rr1---sn-a5mekn6k.googlevideo.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:53:47.678 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 60411), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:53:47.681 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:190fe7214c0c9316,UID:2000,IP:,} for connId: 190fe7214c0c9316, uid: 2000, cm: null
+09-23 16:53:47.686 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, www.youtube.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:54:21.792 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 52050), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:54:21.794 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:9b56a389a8e7c4f6,UID:2000,IP:,} for connId: 9b56a389a8e7c4f6, uid: 2000, cm: null
+09-23 16:54:21.796 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, r4---sn-hxa7zn7s.googlevideo.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:54:25.860 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 40225), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:54:25.862 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:f5429899834d7275,UID:2000,IP:,} for connId: f5429899834d7275, uid: 2000, cm: null
+09-23 16:54:25.864 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, rr1---sn-a5mekn6k.googlevideo.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:54:29.937 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 39590), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:54:29.939 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:b1d3965d881024d0,UID:2000,IP:,} for connId: b1d3965d881024d0, uid: 2000, cm: null
+09-23 16:54:29.942 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, www.youtube.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:54:58.139 27710 28723 I RethinkDnsVpn: preflow: returning uid: 10209 for src: (10.111.222.1, 61153), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:54:58.140 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:7fba4c76fa5a0bcf,UID:10209,IP:,} for connId: 7fba4c76fa5a0bcf, uid: 10209, cm: null
+09-23 16:54:58.143 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 10209, inbox.google.com, returning DNSOpts{UID:10209,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:54:58.150 27710 28723 I RethinkDnsVpn: preflow: returning uid: 10209 for src: (10.111.222.1, 39650), dst: (64.233.176.17, 443), isRethink? false
+09-23 16:54:58.152 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Exit,CID:b0232b87c7ccbac7,UID:10209,IP:,} for src(10.111.222.1: 39650), dest(64.233.176.17:443, inbox.google.com)
+09-23 16:54:58.357 27710 27873 I Firestack: proxy: Exit: dial(tcp)  => 64.233.176.17:443, ka? false, sz? -2 (neither net.TCPConn nor net.UDPConn); err? <nil>
+09-23 16:54:58.360 27710 27870 I Firestack: tcp: b0232b87c7ccbac7 dialed Exit proxy(10.111.222.1:39650) 64.233.176.17:443 => 10.3.0.213:36094 (bind? false / bindaddr? invalid AddrPort) for 10209; rtt? 204ms
+09-23 16:54:58.361 27710 27870 W RethinkDnsVpn: postFlow: no connection metadata found for mark: Mark{PIDCSV:Exit,CID:b0232b87c7ccbac7,UID:10209,IP:64.233.176.17,}
+09-23 16:54:58.364 27710 27870 I Firestack: com: tcp: forward: new conn tcp:Exit::b0232b87c7ccbac7 rwext? true (*dialers.retrier), optset? false (0s); a(10.111.222.1:39650->64.233.176.17:443) => b(10.3.0.213:36094<-64.233.176.17:443) for 10209
+09-23 16:54:58.365 27710 27873 I Firestack: spammy...retrier: wri 17 msgs; dropped? true
+09-23 16:54:58.365 27710 27873 I Firestack: retrier: write: Exit: (first? true, sent? true) [10.3.0.213:36094=>64.233.176.17:443]; t: 3.300000s; b: 2278/2278 (tee: 2278); after: 379µs; write-err? <nil>
+09-23 16:54:58.568 27710 31193 I Firestack: retrier: read: Exit: #0 + (mult? 1 / 0) [10.3.0.213:36094<=64.233.176.17:443]; rshortt: 3.300000s / rfullt: 106751d 23h 47m 16s; b: 4034/16384; err? <nil>
+09-23 16:55:04.076 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 56370), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:55:04.078 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:e4f2511694f86290,UID:2000,IP:,} for connId: e4f2511694f86290, uid: 2000, cm: null
+09-23 16:55:04.080 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, r4---sn-hxa7zn7s.googlevideo.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:55:08.206 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 44830), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:55:08.208 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:4a63ad1aef6c4f2d,UID:2000,IP:,} for connId: 4a63ad1aef6c4f2d, uid: 2000, cm: null
+09-23 16:55:08.213 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, rr1---sn-a5mekn6k.googlevideo.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:55:12.274 27710 28723 I RethinkDnsVpn: preflow: returning uid: 2000 for src: (10.111.222.1, 58292), dst: (10.111.222.3, 53), isRethink? false
+09-23 16:55:12.278 27710 28725 I RethinkDnsVpn: flow/inflow: returning mark: Mark{PIDCSV:Base,CID:77da917519f7f528,UID:2000,IP:,} for connId: 77da917519f7f528, uid: 2000, cm: null
+09-23 16:55:12.286 27710 28718 I RethinkDnsVpn: TunDnsManager onQuery: for 2000, www.youtube.com, returning DNSOpts{UID:2000,IPCSV:,TIDCSV:CachePreferred:Base,TIDSECCSV:,NOBLOCK:false,}
+09-23 16:55:18.089 27710 27862 E Firestack: spammy...retrier: rea 5 msgs; dropped? true
+09-23 16:55:18.089 27710 27862 E Firestack: retrier: readfrom: Exit: (can? false / optimized? false for *dialers.splitter) done (id:/pinned?false) 10.3.0.213:36094<=64.233.176.17:443; sz: 9208; after: 19.724627s; err: read tcp 64.233.176.17:443: connection reset by peer

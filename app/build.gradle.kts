@@ -431,6 +431,7 @@ val firestackCommit = project.findProperty("firestackCommit")?.toString() ?: "ma
 fun firestackDependency(): String {
     return when (firestackRepo) {
         "jitpack" -> "com.github.celzero:firestack:$firestackCommit@aar"
+        "jitpackfork" -> "com.github.kazimurtaza:firestack:$firestackCommit@aar"
         "github" -> "com.github.celzero:firestack:$firestackCommit@aar"
         "ossrh" -> "com.celzero:firestack:$firestackCommit@aar"
         else -> throw GradleException("Unknown firestackRepo: $firestackRepo")
